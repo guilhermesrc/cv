@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+body {
+    background: linear-gradient(0deg, rgba(18, 18, 20, 0.9), rgba(18, 18, 20, 0.9)), linear-gradient(89.91deg, rgba(103, 0, 181, 0.61) 0.09%, rgba(9, 181, 175, 0.61) 99.34%);
+    background-blend-mode: normal, hard-light;
+    color: #f8f8f8;
+}
+
+body, input, button, textarea {
+    font: 400 20px 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #121214;
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.title{
+    border-bottom: 6px solid #6700B5;
+    
+    
+}
