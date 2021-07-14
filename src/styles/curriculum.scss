@@ -220,7 +220,13 @@
 
 @media screen and (max-width:1024px) {
     #page-curriculum{
+        #section-home > img {
+            margin-top: 200px !important;
+        }
+
         main {
+            
+            
             width: 100%;
             height: 130%;
             .section {
@@ -231,6 +237,7 @@
                 
                 
             }
+            
             #section-about > p {
                 padding: 0 2%;
             }
@@ -282,4 +289,10 @@
     }
 
 
+}
+
+@media screen and (max-width:450px) {
+    aside{
+        width: 100%;
+    }
 }
